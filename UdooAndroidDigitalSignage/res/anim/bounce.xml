@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shareInterpolator="false">
+    <alpha android:fromAlpha="0.0" 
+       android:toAlpha="1.0"  
+       android:duration="500"/>
+    
+        <scale
+           android:fromXScale="0.5"
+           android:toXScale="2.0"
+           android:fromYScale="0.5"
+           android:toYScale="2.0"
+           android:pivotX="50%"
+           android:pivotY="50%"
+           android:startOffset="500"
+           android:duration="1000"
+           android:fillBefore="false" />
+        
+        <scale
+           android:fromXScale="2.0"
+           android:toXScale="0.5"
+           android:fromYScale="2.0"
+           android:toYScale="0.5"
+           android:pivotX="50%"
+           android:pivotY="50%"
+           android:startOffset="1500"
+           android:duration="1000"
+           android:fillBefore="false" />
+        
+     <alpha android:fromAlpha="1.0" 
+       android:toAlpha="0.0"  
+       android:startOffset="2500"
+       android:duration="500"/>
+    
+</set>

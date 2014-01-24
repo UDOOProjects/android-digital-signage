@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" 
+    android:background="#e6e6e6">
+
+    <ImageView
+        android:id="@+id/background"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:scaleType="centerCrop" />
+
+
+    <ImageView
+        android:id="@+id/twoHands"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:src="@raw/gesture_dimming"
+        android:visibility="gone"/>
+
+    <ImageView
+        android:id="@+id/rightSlide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="400dp"      
+        android:layout_alignParentLeft="true"
+        android:src="@raw/gesture_slide"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/leftSlide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="400dp"
+        android:src="@raw/gesture_slide"
+        android:visibility="gone" />
+
+</RelativeLayout>
